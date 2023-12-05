@@ -25,9 +25,9 @@ def get_data():
 Aller dans le workspace ros2 puis :
 ```
 cd src/
-git clone https://github.com/anasdtp/Page_web_ROS2/
+git clone https://github.com/anasdtp/pg_web_ros
 cd ..
-colcon build --packages-select Page_web_ROS2
+colcon build --packages-select pg_web_ros
 ```
 Dans un autre terminal, aller dans le workspace ros2 puis :
 ```
