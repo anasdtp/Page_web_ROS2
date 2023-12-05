@@ -42,3 +42,16 @@ ros2 run pg_web_ros talker
 ```
 Vous pouvez maintenant voir les trames arrivant du pub au sub via la page web en rafraichissant la page web plusieurs fois.
 
+
+
+Et si vous avez la flemme de faire les 2 ros2 run dans 2 terminaux différents, vous pouvez faire ses commandes :
+
+aller dans le workspace ros2 puis :
+```
+source install/setup.bash
+cd src/pg_web_ros/launch/
+ros2 launch page_web_base.xml 
+```
+Le probléme c'est que ça lance tout en meme temps et pour comprendre c'est pas fameux
+
+
