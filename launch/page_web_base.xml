@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="pg_web_ros" exec="listener"/>
+    <node pkg="pg_web_ros" exec="talker" />
+</launch>
